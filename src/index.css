@@ -1,0 +1,41 @@
+body {
+  background-color: blueviolet;
+  color: blanchedalmond;
+  font: 30px;
+  margin: 20px;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 50px;
+  margin: 10px;
+  padding: 20px;
+}
+
+.board-row {
+  background-color: cornflowerblue;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.square {
+  border: 1px solid #999;
+  background-color: darkred;
+  width: 80px;
+  height: 80px;
+  font-size: 50px;
+  padding: 20px;
+}
+
+.boardBody {
+  background-color: darkolivegreen;
+  padding: 20px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.status{
+  font-size: 20px;
+}
